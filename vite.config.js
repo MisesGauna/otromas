@@ -5,3 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()]
 })
+
+// vite.config.js  
+export default {  
+  server: {  
+    host: true // Esto hace que Vite escuche en todas las interfaces  
+  }  
+};  
